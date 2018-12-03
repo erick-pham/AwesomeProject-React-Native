@@ -10,7 +10,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:777858525123:android:08abd3785cc0cfee",
         "android_client_info": {
-          "package_name": "kuga.awesome"
+          "package_name": "com.awesomeproject"
         }
       },
       "oauth_client": [

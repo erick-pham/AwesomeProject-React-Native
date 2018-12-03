@@ -7,12 +7,10 @@ import LoginScreen from './AuthenciationScreen/Login'
 import HomeScreen from './HomeScreen/Home'
 
 const AppNavigator = createStackNavigator({
+  Login: { screen: LoginScreen },
   Loading: { screen: LoadingScreen },
   SignUp: { screen: SignUpScreen },
-  Login: { screen: LoginScreen },
   Home: { screen: HomeScreen }
-}, {
-    initialRouteName: 'LoadingScreen'
-  });
+});
 
 export default AppNavigator;

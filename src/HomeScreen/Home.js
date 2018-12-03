@@ -1,15 +1,26 @@
 // HomeScreen.js
 import React from 'react'
-import { StyleSheet, Platform, Image, Text, View } from 'react-native'
+import {
+  StyleSheet,
+  Platform,
+  Image,
+  Text,
+  View
+} from 'react-native'
 export default class HomeScreen extends React.Component {
-  state = { currentUser: null }
+
   render() {
-    const { currentUser } = this.state
+    // const {
+    //   user
+    // } = this.props.naviagtion.state.params
+    console.log(this.state)
+    const {
+      currentUser
+    } = this.state
+    console.log(currentUser)
     return (
-      <View style={styles.container}>
-        <Text>
-          Hi {currentUser && currentUser.email}!
-        </Text>
+      <View style={styles.container} >
+        <Text>Hi {currentUser && currentUser.email}!</Text>
       </View>
     )
   }

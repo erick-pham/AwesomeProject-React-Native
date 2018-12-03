@@ -16,6 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.auth.RNFirebaseAuthPackage; // <-- Add this line
 
 public class MainApplication extends Application implements ReactApplication {
 
@@ -32,6 +33,7 @@ public class MainApplication extends Application implements ReactApplication {
             new VectorIconsPackage(),
             new ReanimatedPackage(),
             new RNFirebasePackage(),
+            new RNFirebaseAuthPackage(),
           new RNGestureHandlerPackage()
       );
     }
