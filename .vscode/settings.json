@@ -1,22 +1,21 @@
 {
-    "team.showWelcomeMessage": false,
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
     "explorer.confirmDelete": false,
-    "javascript.updateImportsOnFileMove.enabled": "never",
     "material-icon-theme.showWelcomeMessage": false,
     "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.color": "#42a5f5",
     "files.associations": {
-        "*.sql": "sql"
+        "*.sql": "sql",
+        "*.js": "typescriptreact"
     },
-    "eslint.packageManager": "yarn",
-
     "typescript.check.npmIsInstalled": false,
     "editor.tabSize": 2,
     "files.insertFinalNewline": true,
-    "mssql.intelliSense.enableErrorChecking": false,
-    "mssql.intelliSense.enableIntelliSense": false,
-    "javascript.updateImportsOnFileMove.enabled": "always",
+    "update.channel": "none",
+    "window.menuBarVisibility": "default",
+    "editor.renderControlCharacters": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "[typescriptreact]": {},
     "update.channel": "none"
 }
